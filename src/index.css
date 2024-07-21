@@ -78,8 +78,8 @@ input {
   background-color: #5a3e2b;
   color: #ffebb3;
   padding: 4rem 0;
-
-  display: flex;
+  height: auto;
+  /* display: flex; */
   justify-content: space-between;
   flex-direction: column;
   gap: 3.2rem;
@@ -93,6 +93,10 @@ input {
   font-size: 1.4rem;
   font-weight: 700;
   margin: 0 0.8rem;
+}
+
+li .packed {
+  text-decoration: line-through;
 }
 
 .list ul {
@@ -134,3 +138,5 @@ input[type="checkbox"] {
   font-weight: 700;
   padding: 3.2rem 0;
 }
+
+
